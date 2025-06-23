@@ -1,0 +1,7 @@
+{
+  "backup_source": "/var/lib/docker/volumes/",
+  "backup_destination": "/var/backups/",
+  "retention_days": 7,
+  "interval_minutes": 1440,
+  "log_path": "/var/log/backup.log"
+}
