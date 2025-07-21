@@ -10,6 +10,7 @@ This project provides an automated solution for backing up Docker volumes. It us
 - 📑 Logs actions to a file for auditing
 
 ## 📁 Project Structure
+```
 .
 ├── Dockerfile
 ├── docker-compose.yml
@@ -18,7 +19,7 @@ This project provides an automated solution for backing up Docker volumes. It us
 └── app/
 ├── backup_manager.py
 └── config.json
-
+```
 ⚙️ Configuration (`app/config.json`)
 Edit `config.json` to control how and where backups are stored:
 ```json
@@ -29,7 +30,7 @@ Edit `config.json` to control how and where backups are stored:
   "interval_minutes": 1440,
   "log_path": "/var/log/backup.log"
 }
-
+```
 
 Field	Description
 backup_source	Path where Docker volumes are located
